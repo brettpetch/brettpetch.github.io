@@ -7,6 +7,8 @@ If you would like to help out with music at bdhs, please contact me at bret7600@
 
 We will teach you how to create mixes, and also give you the general run around in the communications technology room.
 
+If you have song ideas, please pass them along at [bit.ly/BDHSongs](http://bit.ly/BDHSongs)
+
 ## Spring Fling
 ![Spring Fling](https://brettpetch.github.io/assets/img/JamesJung-215.jpg)
 Images are available at [bit.ly/BDHSpringFling](https://bit.ly/BDHSpringFling)
