@@ -24,4 +24,4 @@ Now live at [HCEACanada.org](https://hceacanada.org/membership/newsletter-2/)
 
 ## Trip to Vimy Ridge
 ![Vimy Ridge 1](https://brettpetch.github.io/assets/img/Vimy.jpg)
-Now live at [Vimy 1](https://bit.ly/Vimy100-1) and [Vimy 2](https://bit.ly/Vimy100-2).
+Now live at [Vimy 1](https://bit.ly/Vimy100-1) and [Vimy 2](https://bit.ly/Vimy100-2) as well as [Vimy Collaborative](https://bit.ly/Vimy100-Collab).
