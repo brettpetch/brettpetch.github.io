@@ -21,3 +21,7 @@ Images are available at [bit.ly/bdhscolourproofs](http://bit.ly/bdhscolourproofs
 ## HCEA Canada gets Online Newsletters!
 ![Screenshot](https://brettpetch.github.io/assets/img/hcea/newsletterlanding.png)
 Now live at [HCEACanada.org](https://hceacanada.org/membership/newsletter-2/)
+
+## Trip to Vimy Ridge
+![Vimy Ridge 1](https://brettpetch.github.io/assets/img/Vimy.jpg)
+Now live at [Vimy 1](https://bit.ly/Vimy100-1) and [Vimy 2](https://bit.ly/Vimy100-2).
