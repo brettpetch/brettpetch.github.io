@@ -13,7 +13,7 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-    <ul>{% if site.twitter_username %}<a style="color: white" href="https://twitter.com/{{ site.twitter_username }}"><span style="display: block;" class="project-tagline"><i class="fa fa-twitter"></i> <h2 class="project-tagline">Twitter</h2></span></a>{% endif %}{% if site.github_username %}<a style="color: white" href="https://github.com/{{ site.github_username }}"><span style="display: block;" class="project-tagline"><i class="fa fa-github"></i> <h2 class="project-tagline">GitHub</h2></span></a>{% endif %}{% if site.facebook_username %}<a style="color: white" href="https://www.facebook.com/{{ site.facebook_username }}"><span style="display: block;" class="project-tagline"><i class="fa fa-facebook"></i><h2 class="project-tagline"> Facebook</h2></span></a>{% endif %}</ul>
+{% if site.twitter_username %}<a style="color: white" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i> <h2 class="project-tagline">Twitter</h2></a>{% endif %}{% if site.github_username %}<a style="color: white" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i> <h2 class="project-tagline">GitHub</h2></a>{% endif %}{% if site.facebook_username %}<a style="color: white" href="https://www.facebook.com/{{ site.facebook_username }}">]<i class="fa fa-facebook"></i><h2 class="project-tagline"> Facebook</h2></a>{% endif %}
     </section>
 
     <section class="main-content">
