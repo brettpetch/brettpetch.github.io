@@ -13,7 +13,8 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-<div align="center"{% if site.twitter_username %}
+<div align="center">
+  {% if site.twitter_username %}
 <a style="color: white; padding: 25px 25px 25px 25px;" href="https://twitter.com/{{ site.twitter_username }}">
   <i class="fa fa-twitter">
     <h2 class="project-tagline">Twitter
