@@ -7,11 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
   <body>
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <i class="fa fa-twitter"></i> Twitter
+        </a>
+      </li>
+      {% endif %}
+      {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}">
+          <i class="fa fa-github"></i> GitHub
+        </a>
+      </li>
+      {% endif %}
+      {% if site.facebook_username %}
+        <li>
+          <a href="https://www.facebook.com/{{ site.facebook_username }}">
+            <i class="fa fa-facebook"></i> Facebook
+          </a>
+        </li>
+      {% endif %}
     </section>
 
     <section class="main-content">
