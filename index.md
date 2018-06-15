@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
+## Athletic Banquet 2018
+![Athletic Banquet](https://brettpetch.github.io/assets/img/hero-ab-1.jpg)
+Images are available at [https://bit.ly/AB2018](https://bit.ly/AB2018). These are at limited resolution.
+
 
 ## Contribute to Morning Music at BDHS
 If you would like to help out with music at bdhs, please contact me at bret7600@scdsb.on.ca
 
 We will teach you how to create mixes, and also give you the general run around in the communications technology room.
 
-If you have song ideas, please pass them along at [bit.ly/BDHSongs](http://bit.ly/BDHSongs)
+If you have song ideas, please pass them along at [bit.ly/BDHSongs](https://bit.ly/BDHSongs)
 
 ## Spring Fling
 ![Spring Fling](https://brettpetch.github.io/assets/img/JamesJung-215.jpg)
