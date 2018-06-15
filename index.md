@@ -3,7 +3,7 @@ layout: default
 ---
 ## Athletic Banquet 2018
 ![Athletic Banquet](https://brettpetch.github.io/assets/img/hero-ab-1.jpg)
-Images are available at [https://bit.ly/AB2018](https://bit.ly/BDHAB2018). These are at limited resolution.
+Images are available at [https://bit.ly/BDHAB2018](https://bit.ly/BDHAB2018). These are at limited resolution.
 
 
 ## Contribute to Morning Music at BDHS
