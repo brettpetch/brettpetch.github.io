@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+## BDHS Convocation 2018 *new*
+Please post to the following Google Photos: [http://bit.ly/bdhscommencement18](http://bit.ly/bdhscommencement18)
+Cheers!
+B
+
 ## Athletic Banquet 2018
 ![Athletic Banquet](https://brettpetch.github.io/assets/img/hero-ab-1.jpg)
 Images are available at [https://bit.ly/BDHAB2018](https://bit.ly/BDHAB2018). These are no longer provided at limited resolution.
