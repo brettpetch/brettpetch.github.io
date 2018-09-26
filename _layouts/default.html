@@ -15,39 +15,28 @@
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 <div align="center">
   {% if site.twitter_username %}
-  <a style="color: white; padding: 25px 25px 0px 0px;" href="https://twitter.com/{{ site.twitter_username }}">
-    <i class="fa fa-twitter">
-      <h2 class="project-tagline">Twitter</h2>
-    </i>
-  </a>
+      <a class="btn" href="https://twitter.com/{{ site.twitter_username }}">
+        <i class="fab fa-twitter"></i>
+        <div>Twitter</div>
+      </a>
   {% endif %}
   {% if site.github_username %}
-  <a style="color: white; padding: 25px 25px 0px 0px;" href="https://github.com/{{ site.github_username }}">
-    <i class="fa fa-github">
-      <h2 class="project-tagline">GitHub</h2>
-    </i>
-  </a>
+      <a class="btn" href="https://github.com/{{ site.github_username }}">
+        <i class="fab fa-github"></i>
+        <div>GitHub</div>
+      </a>
   {% endif %}
   {% if site.facebook_username %}
-  <a style="color: white; padding: 25px 25px 0px 0px;" href="https://www.facebook.com/{{ site.facebook_username }}">
-    <i class="fa fa-facebook">
-      <h2 class="project-tagline"> Facebook</h2>
-    </i>
-  </a>
+      <a class="btn" href="https://www.facebook.com/{{ facebook_username }}">
+        <i class="fab fa-facebook"></i>
+        <div>Facebook</div>
+      </a>
   {% endif %}
   {% if site.instagram_username %}
-  <a style="color: white; padding: 25px 25px 0px 0px;" href="https://www.instagram.com/{{ site.instagram_username }}">
-    <i class="fa fa-instagram">
-      <h2 class="project-tagline"> Instagram</h2>
-    </i>
-  </a>
-  {% endif %}
-  {% if site.discord_username %}
-  <a style="color: white; padding: 25px 25px 0px 0px;" href="https://www.discord.com/{{ site.discord_username }}">
-    <i class="fa fa-instagram">
-      <h2 class="project-tagline"> Discord</h2>
-    </i>
-  </a>
+      <a class="btn" href="https://www.instagram.com/{{ instagram_username }}">
+        <i class="fab fa-instagram"></i>
+        <div>Instagram</div>
+      </a>
   {% endif %}
 </div>
     </section>
