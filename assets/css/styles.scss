@@ -1,0 +1,59 @@
+---
+---
+html,
+body,
+ul,
+ol {
+  margin:  0;
+  padding: 0;
+}
+body {
+  font: 100% Helvetica, sans-serif;
+  background-color: #efefef;
+}
+nav {
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+    a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: #111;
+    }
+    .active {
+      background-color: #4CAF50;
+    }
+  }
+}
+section {
+  .main {
+    padding: 20px;
+  }
+}
+.container {
+  width: 100%;
+}
+
+article[role="main"] {
+  float: left;
+  width: 600px / 960px * 100%;
+}
+
+aside[role="complementary"] {
+  float: right;
+  width: 300px / 960px * 100%;
+}

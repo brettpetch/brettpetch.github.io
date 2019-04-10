@@ -1,0 +1,12 @@
+section {
+  .jumbotron {
+    margin-top:30px;
+    min-width: 100%;
+    background-image: url("/assets/images/jumbotron.jpg");
+    background-size: cover;
+    height: 300px;
+    h1 {
+      font: 300% Helvetica, sans-serif;
+    }
+  }
+}
