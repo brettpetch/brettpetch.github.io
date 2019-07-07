@@ -327,3 +327,4 @@ algolia:
     - _pages/tag.md
     - _pages/notes.md
     - _pages/work.md
+theme: jekyll-theme-cayman
