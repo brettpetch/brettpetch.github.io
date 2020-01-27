@@ -1,330 +1,55 @@
-title: "Brett Petcn"
-description: "Personal website of Brett Petch)"
-logo: &logo "/assets/images/android-chrome-384x384.png"
-locale: "en_US"
-words_per_minute: 140
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-repository: "brettpetch/brettpetch.github.io"
-url: "https://brettpetch.github.io"
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
-social:
-  name: "Brett Petch"
-  links:
-    - "https://twitter.com/brettjpetch"
-    - "https://www.facebook.com/brettpetch"
-    - "https://www.instagram.com/brettjpetch/"
-    - "https://github.com/brettpetch"
-
-google_site_verification: ""
-bing_site_verification: ""
-alexa_site_verification: ""
-yandex_site_verification: ""
-
-google_ad-client: ""
-google_ad-slot: ""
-google_analytics: ""
-
-feed:
-  path: "https://brettpetch.github.io/atom.xml"
-
-favicon_version: "9BPnoQEY43"
-
-# Site owner
-author:
-  name: "Brett Petch"
-  uri: &uri "https://brettpetch.github.io/about/"
-  url: *uri
-  bio: "Media Information and Technoculture at Western University"
-  picture: "/assets/images/brett-petch-glitched.jpg"
-  twitter: "https://twitter.com/brettjpetch"
-  facebook: "https://www.facebook.com/brettpetch"
-  instagram: "https://www.instagram.com/brettjpetch/"
-  github: "https://github.com/brettpetch"
-
-twitter:
-  username: "brettpetch"
-
-# Staticman comments (full configuration in staticman.yml)
-staticman:
-  branch: "master"
-
-# reCAPTCHA keys
-reCaptcha:
-  siteKey: "6LdRBykTAAAAAFB46MnIu6ixuxwu9W1ihFF8G60Q"
-  secret: "PznnZGu3P6eTHRPLORniSq+J61YEf+A9zmColXDM5icqF49gbunH51B8+h+i2IvewpuxtA9TFoK68TuhUp/X3YKmmqhXasegHYabY50fqF9nJh9npWNhvITdkQHeaOqnFXUIwxfiEeUt49Yoa2waRR7a5LdRAP3SVM8hz0KIBT4="
-
-# Jekyll configuration
-permalink: /:categories/:title/
-lsi: true
-future: false
-show_drafts: false
-markdown: kramdown
-kramdown:
-  toc_levels: 1..3
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  entity_output: as_char
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-highlighter: rouge
-strict_front_matter: true
-keep_files:
-  - .git
-include:
-  - _pages
-  - _redirects
-exclude:
-  - .jekyll-cache
-  - .sass-cache
-  - Gemfile
-  - Gemfile.lock
-  - gemfiles/
-  - Gruntfile.js
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Plugins
+# Build settings
+theme: minima
 plugins:
-  - jekyll-sitemap
-  - jemoji
-  - jekyll-seo-tag
-  - jekyll-paginate-v2
-  - jekyll-typogrify
-  - jekyll-figure
-  - jekyll-algolia
-  - jekyll/tagging
-  - jekyll-tagging-related_posts
-  - jekyll-include-cache
-  - jekyll-toc
+  - jekyll-feed
 
-# Collections
-collections:
-  faqs:
-    output: true
-    permalink: /:collection/:path/
-    title: FAQs
-  work:
-    output: true
-    permalink: /:collection/:path/
-    title: Works
-  components:
-    output: false
-  colors:
-    output: false
-
-# Front Matter Defaults
-defaults:
-  # Blog Articles
-  - scope:
-      path: _posts/articles
-      type: posts
-    values:
-      layout: post
-      byline: false
-      read_time: true
-      support: true
-      breadcrumbs:
-        - label: "Blog articles"
-          url: /articles/
-      image:
-        facebook: *logo
-        twitter: *logo
-      twitter:
-        card: summary
-  # Mastering Paper
-  - scope:
-      path: _posts/mastering-paper
-      type: posts
-    values:
-      layout: post
-      byline: false
-      read_time: true
-      comments: true
-      support: true
-      breadcrumbs:
-        - label: "Mastering Paper for iOS"
-          url: /mastering-paper/
-      image:
-        facebook: *logo
-        twitter: *logo
-      twitter:
-        card: summary
-  # Notes
-  - scope:
-      path: _posts/notes
-      type: posts
-    values:
-      layout: post
-      byline: false
-      read_time: true
-      breadcrumbs:
-        - label: "Notes"
-          url: /notes/
-      image:
-        facebook: *logo
-        twitter: *logo
-      twitter:
-        card: summary
-  # PaperFaces
-  - scope:
-      path: _posts/paperfaces
-      type: posts
-    values:
-      layout: post
-      byline: false
-      breadcrumbs:
-        - label: "Works"
-          url: /work/
-        - label: "PaperFaces portraits"
-          url: /paperfaces/
-      work: "Illustration"
-      seo:
-        type: "CreativeWork"
-  # Procreate Paintings
-  - scope:
-      path: _posts/procreate
-      type: posts
-    values:
-      layout: post
-      byline: false
-      breadcrumbs:
-        - label: "Works"
-          url: /work/
-        - label: "Procreate paintings"
-          url: /procreate-paintings/
-      work: "Illustration"
-      seo:
-        type: "CreativeWork"
-  # Tiny Paintings
-  - scope:
-      path: _posts/tiny-paintings
-      type: posts
-    values:
-      layout: post
-      byline: false
-      breadcrumbs:
-        - label: "Works"
-          url: /work/
-        - label: "Tiny paintings"
-          url: /tiny-paintings/
-      work: "Illustration"
-      seo:
-        type: "CreativeWork"
-  # Work (posts and collection)
-  - scope:
-      path: _posts/work
-      type: posts
-    values:
-      layout: post
-      breadcrumbs:
-        - label: "Works"
-          url: /work/
-      seo:
-        type: "CreativeWork"
-  - scope:
-      path: _work
-      type: work
-    values:
-      layout: work
-      category: work
-      breadcrumbs:
-        - label: "Works"
-          url: /work/
-      seo:
-        type: "CreativeWork"
-  # FAQs
-  - scope:
-      path: _faqs
-      type: faqs
-    values:
-      layout: page
-      read_time: true
-      breadcrumbs:
-        - label: "Frequently asked questions"
-          url: /faqs/
-      image:
-        facebook: *logo
-        twitter: *logo
-      twitter:
-        card: summary
-  # Pages
-  - scope:
-      path: _pages
-      type: pages
-    values:
-      layout: page
-      image:
-        facebook: *logo
-        twitter: *logo
-      twitter:
-        card: summary
-
-# Plugin: Pagination (jekyll-paginate-v2)
-pagination:
-  enabled: true
-  debug: false
-  per_page: 15
-  permalink: "/page/:num/"
-  title: ":title"
-  limit: 0
-  sort_field: "date"
-  sort_reverse: true
-
-# Plugin: Auto Pages (jekyll-paginate-v2)
-autopages:
-  enabled: true
-  categories:
-    enabled: false
-  collections:
-    enabled: false
-  tags:
-    enabled: true
-    slugify:
-      mode: raw
-      cased: true
-    layouts:
-      - "autopage_tags.html"
-    title: ":tag" # :tag is replaced by the tag name
-    permalink: "/tag/:tag"
-
-# Plugin: Figure (jekyll-figure)
-jekyll-figure:
-  paragraphs: false
-
-# Plugin: Table of Contents (jekyll-toc)
-toc:
-  min_level: 2
-  max_level: 2
-  list_class: "toc__menu"
-  item_class: "toc__entry"
-  item_prefix: "toc__"
-
-# Plugin: Jekyll Algolia
-algolia:
-  application_id: KT124ONH1Z
-  index_name: mademistakes
-  search_only_api_key: 5a6e106e8083321a8ccca41b11aca95c
-  nodes_to_index: "p,blockquote"
-  files_to_exclude:
-    - index.html
-    - index.md
-    - _pages/404.md
-    - _pages/articles.md
-    - _pages/faqs.md
-    - _pages/mastering-paper.md
-    - _pages/portraits.md
-    - _pages/sitemap.md
-    - _pages/tag.md
-    - _pages/notes.md
-    - _pages/work.md
-theme: jekyll-theme-cayman
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
