@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script data-ad-client="ca-pub-7621338583395661" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
   <body>
-{% include header.html %}
-    <div class="page-content">
-      <div class="wrapper">
-        <main>
-{{ content }}
-        </main>
-      </div>
-    </div>
-{% include footer.html %}
-{% include analytics.html %}
+    {{ content}}
   </body>
 </html>
